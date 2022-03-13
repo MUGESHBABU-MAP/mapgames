@@ -1,2 +1,0 @@
-# mapgames
-mapgames.mugeshbabu.com
