@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPGames</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script>
+        function internetCheck() {  
+             var value = "Is the browser online? " + navigator.onLine;  
+             //document.getElementById("internetCheck").innerHTML = value;
+             if(value == 'Is the browser online? true'){
+                document.getElementById("internetCheck01").href="m2048/game.html"; 
+                return false;
+             }else{
+                document.getElementById("internetCheck01").href="m2048/game.html"; 
+                Android.showToast("Connect To Internet Please!");
+            }  
+        } 
+    </script>
+</head>
+<body>
+
+
+    <div class="container0a">
+        <div class="container01">
+            <div class="container02">
+            <button onclick="internetCheck()"><span><a id="internetCheck01" href="m2048/game.html" style="padding: 2.5rem 1.5rem;">2048</a></span></button>
+            </div> 
+        </div>
+        <div class="container01">
+            <div class="container02">
+            <button><span><a id="internetCheck01" href="#" style="padding: 2.5rem 1.5rem;">Update Pending</a></span></button>
+            </div> 
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
