@@ -7,14 +7,36 @@
     <title>MAPGames</title>
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
     <script>  
-        function internetCheck() {  
+        function internetCheck1() {  
              var value = "Is the browser online? " + navigator.onLine;  
              //document.getElementById("internetCheck").innerHTML = value;
              if(value == 'Is the browser online? true'){
-                document.getElementById("internetCheck01").href="./m2048/game.html"; 
+                document.getElementById("internetCheck01").href="./m2048"; 
                 return false;
              }else{
-                document.getElementById("internetCheck01").href="./m2048/game.html"; 
+                document.getElementById("internetCheck01").href="./m2048"; 
+                Android.showToast("Connect To Internet Please!");
+            }  
+        }    
+        function internetCheck2() {  
+             var value = "Is the browser online? " + navigator.onLine;  
+             //document.getElementById("internetCheck").innerHTML = value;
+             if(value == 'Is the browser online? true'){
+                document.getElementById("internetCheck02").href="./aadupuliyattam"; 
+                return false;
+             }else{
+                document.getElementById("internetCheck02").href="./aadupuliyattam"; 
+                Android.showToast("Connect To Internet Please!");
+            }  
+        }    
+        function internetCheck3() {  
+             var value = "Is the browser online? " + navigator.onLine;  
+             //document.getElementById("internetCheck").innerHTML = value;
+             if(value == 'Is the browser online? true'){
+                document.getElementById("internetCheck03").href="./ancientgames"; 
+                return false;
+             }else{
+                document.getElementById("internetCheck03").href="./ancientgames"; 
                 Android.showToast("Connect To Internet Please!");
             }  
         }  
@@ -26,21 +48,21 @@
     <div class="container0a">
     <div class="container01">
         <div class="container02">
-        <button onclick="internetCheck()"><span><a id="internetCheck01" href="./m2048" style="padding: 2.5rem 1.5rem;">2048</a></span></button>
+        <button onclick="internetCheck1()"><span><a id="internetCheck01" href="./m2048" style="padding: 2.5rem 1.5rem;">2048</a></span></button>
         </div>
         <br>
         <br>
     </div>
     <div class="container01">
         <div class="container02">
-            <button onclick="internetCheck()"><span><a id="internetCheck01" href="./aadupuliyattam" style="padding: 2.5rem 1.5rem;">aadupuliyattam </a></span></button>
+            <button onclick="internetCheck2()"><span><a id="internetCheck02" href="./aadupuliyattam" style="padding: 2.5rem 1.5rem;">aadupuliyattam </a></span></button>
         </div>
         <br>
         <br>
     </div>
     <div class="container01">
         <div class="container02">
-            <button onclick="internetCheck()"><span><a id="internetCheck01" href="./ancientgames" style="padding: 2.5rem 1.5rem;">ancientgames</a></span></button>
+            <button onclick="internetCheck3()"><span><a id="internetCheck03" href="./ancientgames" style="padding: 2.5rem 1.5rem;">ancientgames</a></span></button>
         </div>
         <br>
         <br>
