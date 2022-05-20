@@ -39,8 +39,71 @@ function ProcessUserInput(element){
     var outsidegreens = document.getElementById("outsidegreen");
     winning();
     if(functionisrunningred){
+        if(element.id==0&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(3).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("Can't Select"+document.getElementById(0).src+element.id);
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+         //   img_change.src = "images/red03.png";
+        }
+        else if(element.id==1&&document.getElementById(0).src!=root+"/images/bg003.png"&&document.getElementById(2).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("Can't Select"+document.getElementById(0).src+element.id);
+            movered=false;
+            movegreen=false;
+         //   img_change = document.getElementById(element.id);
+           // img_change.src = "images/red03.png";
+        }
+        else if(element.id==2&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(5).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+         //   img_change = document.getElementById(element.id);
+          //  img_change.src = "images/red03.png";
+        }
+        else if(element.id==3&&document.getElementById(0).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&document.getElementById(6).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+         //   img_change = document.getElementById(element.id);
+           // img_change.src = "images/red03.png";
+        }
+        else if(element.id==4&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(3).src!=root+"/images/bg003.png"&&document.getElementById(5).src!=root+"/images/bg003.png"&&document.getElementById(7).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+           // img_change = document.getElementById(element.id);
+           // img_change.src = "images/red03.png";
+        }
+        else if(element.id==5&&document.getElementById(2).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&document.getElementById(8).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+           // img_change.src = "images/red03.png";
+        }
+        else if(element.id==6&&document.getElementById(3).src!=root+"/images/bg003.png"&&document.getElementById(7).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+           // img_change.src = "images/red03.png";
+        }
+        else if(element.id==7&&document.getElementById(4).src!=root+"/images/bg003.png"&&document.getElementById(6).src!=root+"/images/bg003.png"&&document.getElementById(8).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+            //img_change.src = "images/red03.png";
+        }
+        else if(element.id==8&&document.getElementById(5).src!=root+"/images/bg003.png"&&document.getElementById(7).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+           // img_change.src = "images/red03.png";
+        }
         
-        if(outsidereds.innerHTML>0&&element.src == root+"/images/bg003.png"){
+        else if(outsidereds.innerHTML>0&&element.src == root+"/images/bg003.png"){
             outsidereds.innerHTML-=1;
             img_change = document.getElementById(element.id);
             img_change.src = "images/red03.png";
@@ -96,8 +159,71 @@ function ProcessUserInput(element){
         return;
     }
     if(functionisrunninggreen){
+        if(element.id==0&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(3).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("Can't Select"+document.getElementById(0).src+element.id);
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+            //img_change.src = "images/green03.png";
+        }
+        else if(element.id==1&&document.getElementById(0).src!=root+"/images/bg003.png"&&document.getElementById(2).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("Can't Select"+document.getElementById(0).src+element.id);
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+           // img_change.src = "images/green03.png";
+        }
+        else if(element.id==2&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(5).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+         //   img_change = document.getElementById(element.id);
+           // img_change.src = "images/green03.png";
+        }
+        else if(element.id==3&&document.getElementById(0).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&document.getElementById(6).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+         //   img_change = document.getElementById(element.id);
+           // img_change.src = "images/green03.png";
+        }
+        else if(element.id==4&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(3).src!=root+"/images/bg003.png"&&document.getElementById(5).src!=root+"/images/bg003.png"&&document.getElementById(7).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+         //   img_change = document.getElementById(element.id);
+            //img_change.src = "images/green03.png";
+        }
+        else if(element.id==5&&document.getElementById(2).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&document.getElementById(8).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+           // img_change.src = "images/green03.png";
+        }
+        else if(element.id==6&&document.getElementById(3).src!=root+"/images/bg003.png"&&document.getElementById(7).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+           // img_change = document.getElementById(element.id);
+           // img_change.src = "images/green03.png";
+        }
+        else if(element.id==7&&document.getElementById(4).src!=root+"/images/bg003.png"&&document.getElementById(6).src!=root+"/images/bg003.png"&&document.getElementById(8).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+           // img_change = document.getElementById(element.id);
+           // img_change.src = "images/green03.png";
+        }
+        else if(element.id==8&&document.getElementById(5).src!=root+"/images/bg003.png"&&document.getElementById(7).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
+            alert("I hope not possible! - try another");
+            movered=false;
+            movegreen=false;
+          //  img_change = document.getElementById(element.id);
+            //img_change.src = "images/green03.png";
+        }
         
-        if(outsidegreens.innerHTML>0&&element.src == root+"/images/bg003.png"){
+        else if(outsidegreens.innerHTML>0&&element.src == root+"/images/bg003.png"){
             outsidegreens.innerHTML-=1;
             img_change = document.getElementById(element.id);
             img_change.src = "images/green03.png";
@@ -224,97 +350,97 @@ function winning(){
     }
     if(document.getElementById(arrayid[0]).src==document.getElementById(arrayid[1]).src&&document.getElementById(arrayid[0]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[1]).src==document.getElementById(arrayid[2]).src&&document.getElementById(arrayid[0]).src==root+"/images/red03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Red won :)")
+        alert("Red won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 1 Won :)";
+        statusmsg.innerHTML = "Player 1 : Red Won !";
         statusmsg.style.color="red";
         finish();
     }
     else if(document.getElementById(arrayid[3]).src==document.getElementById(arrayid[4]).src&&document.getElementById(arrayid[3]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[4]).src==document.getElementById(arrayid[5]).src&&document.getElementById(arrayid[3]).src==root+"/images/red03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Red won :)")
+        alert("Red won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 1 Won :)";
+        statusmsg.innerHTML = "Player 1 : Red Won !";
         statusmsg.style.color="red";
         finish();
     }
     else if(document.getElementById(arrayid[6]).src==document.getElementById(arrayid[7]).src&&document.getElementById(arrayid[6]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[7]).src==document.getElementById(arrayid[8]).src&&document.getElementById(arrayid[6]).src==root+"/images/red03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Red won :)")
+        alert("Red won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 1 Won :)";
+        statusmsg.innerHTML = "Player 1 : Red Won !";
         statusmsg.style.color="red";
         finish();
     }
     else if(document.getElementById(arrayid[0]).src==document.getElementById(arrayid[3]).src&&document.getElementById(arrayid[0]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[3]).src==document.getElementById(arrayid[6]).src&&document.getElementById(arrayid[0]).src==root+"/images/red03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Red won :)")
+        alert("Red won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 1 Won :)";
+        statusmsg.innerHTML = "Player 1 : Red Won !";
         statusmsg.style.color="red";
         finish();
     }
     else if(document.getElementById(arrayid[1]).src==document.getElementById(arrayid[4]).src&&document.getElementById(arrayid[1]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[4]).src==document.getElementById(arrayid[7]).src&&document.getElementById(arrayid[1]).src==root+"/images/red03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Red won :)")
+        alert("Red won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 1 Won :)";
+        statusmsg.innerHTML = "Player 1 : Red Won !";
         statusmsg.style.color="red";
         finish();
     }
     else if(document.getElementById(arrayid[2]).src==document.getElementById(arrayid[5]).src&&document.getElementById(arrayid[2]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[5]).src==document.getElementById(arrayid[8]).src&&document.getElementById(arrayid[2]).src==root+"/images/red03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Red won :)")
+        alert("Red won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 1 Won :)";
+        statusmsg.innerHTML = "Player 1 : Red Won !";
         statusmsg.style.color="red";
         finish();
     }
     else if(document.getElementById(arrayid[0]).src==document.getElementById(arrayid[1]).src&&document.getElementById(arrayid[0]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[1]).src==document.getElementById(arrayid[2]).src&&document.getElementById(arrayid[0]).src==root+"/images/green03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Green won :)");
+        alert("Green won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 2 Won :)";
+        statusmsg.innerHTML = "Player 2 : Green Won !";
         statusmsg.style.color="greenyellow";
         finish();
     }
     else if(document.getElementById(arrayid[3]).src==document.getElementById(arrayid[4]).src&&document.getElementById(arrayid[3]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[4]).src==document.getElementById(arrayid[5]).src&&document.getElementById(arrayid[3]).src==root+"/images/green03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Green won :)");
+        alert("Green won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 2 Won :)";
+        statusmsg.innerHTML = "Player 2 : Green Won !";
         statusmsg.style.color="greenyellow";
         finish();
     }
     else if(document.getElementById(arrayid[6]).src==document.getElementById(arrayid[7]).src&&document.getElementById(arrayid[6]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[7]).src==document.getElementById(arrayid[8]).src&&document.getElementById(arrayid[6]).src==root+"/images/green03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Green won :)");
+        alert("Green won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 2 Won :)";
+        statusmsg.innerHTML = "Player 2 : Green Won !";
         statusmsg.style.color="greenyellow";
         finish();
     }
     else if(document.getElementById(arrayid[0]).src==document.getElementById(arrayid[3]).src&&document.getElementById(arrayid[0]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[3]).src==document.getElementById(arrayid[6]).src&&document.getElementById(arrayid[0]).src==root+"/images/green03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Green won :)");
+        alert("Green won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 2 Won :)";
+        statusmsg.innerHTML = "Player 2 : Green Won !";
         statusmsg.style.color="greenyellow";
         finish();
     }
     else if(document.getElementById(arrayid[1]).src==document.getElementById(arrayid[4]).src&&document.getElementById(arrayid[1]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[4]).src==document.getElementById(arrayid[7]).src&&document.getElementById(arrayid[1]).src==root+"/images/green03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Green won :)");
+        alert("Green won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 2 Won :)";
+        statusmsg.innerHTML = "Player 2 : Green Won !";
         statusmsg.style.color="greenyellow";
         finish();
     }
     else if(document.getElementById(arrayid[2]).src==document.getElementById(arrayid[5]).src&&document.getElementById(arrayid[2]).src!==root+"/images/bg003.png"&&document.getElementById(arrayid[5]).src==document.getElementById(arrayid[8]).src&&document.getElementById(arrayid[2]).src==root+"/images/green03.png"){
         //alert(document.getElementById(arrayid[0]).src);
-        //alert("Green won :)");
+        alert("Green won !");
         var statusmsg = document.getElementById("status");
-        statusmsg.innerHTML = "Player 2 Won :)";
+        statusmsg.innerHTML = "Player 2 : Green Won !";
         statusmsg.style.color="greenyellow";
         finish();
     }
@@ -334,3 +460,6 @@ function finish(){
     var button_color = document.getElementById("button_start_stop");
     button_color.style.backgroundColor='Yellow';
 }
+/*
+if(document.getElementById(2).src!='http://127.0.0.1:5500/ancientgames/images/bg003.png'){alert(document.getElementById(2).src)}
+*/
