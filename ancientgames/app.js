@@ -40,14 +40,14 @@ function ProcessUserInput(element){
     winning();
     if(functionisrunningred){
         if(element.id==0&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(3).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
-            alert("Can't Select"+document.getElementById(0).src+element.id);
+            alert("I hope not possible! - try another");
             movered=false;
             movegreen=false;
           //  img_change = document.getElementById(element.id);
          //   img_change.src = "images/red03.png";
         }
         else if(element.id==1&&document.getElementById(0).src!=root+"/images/bg003.png"&&document.getElementById(2).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
-            alert("Can't Select"+document.getElementById(0).src+element.id);
+            alert("I hope not possible! - try another");
             movered=false;
             movegreen=false;
          //   img_change = document.getElementById(element.id);
@@ -160,14 +160,14 @@ function ProcessUserInput(element){
     }
     if(functionisrunninggreen){
         if(element.id==0&&document.getElementById(1).src!=root+"/images/bg003.png"&&document.getElementById(3).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
-            alert("Can't Select"+document.getElementById(0).src+element.id);
+            alert("I hope not possible! - try another");
             movered=false;
             movegreen=false;
           //  img_change = document.getElementById(element.id);
             //img_change.src = "images/green03.png";
         }
         else if(element.id==1&&document.getElementById(0).src!=root+"/images/bg003.png"&&document.getElementById(2).src!=root+"/images/bg003.png"&&document.getElementById(4).src!=root+"/images/bg003.png"&&outsidegreens.innerHTML==0&&outsidereds.innerHTML==0){
-            alert("Can't Select"+document.getElementById(0).src+element.id);
+            alert("I hope not possible! - try another");
             movered=false;
             movegreen=false;
           //  img_change = document.getElementById(element.id);
