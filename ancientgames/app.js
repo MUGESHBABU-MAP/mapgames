@@ -2,6 +2,10 @@ var start = 0;
 var root = location.protocol + '//' + location.host+'/mugeshbabu-map/ancientgames';
 if(location.pathname=='/'){
     var root = location.protocol + '//' + location.host;
+} else if(location.pathname=='ancientgames'){
+    var root = location.protocol + '//' + location.host+'/ancientgames';
+} else if(location.pathname=='/ancientgames'){
+    var root = location.protocol + '//' + location.host+'/ancientgames';
 }
 
 function startGame(){
